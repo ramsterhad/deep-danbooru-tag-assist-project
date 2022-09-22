@@ -5,5 +5,8 @@
   "license": "GPL-3.0-only",
   "require": {
     "ramsterhad/ddta": "*"
+  },
+  "scripts": {
+    "post-create-project-cmd": "cp -r vendor/ramsterhad/ddta/public ./ && cp -r vendor/ramsterhad/ddta/bin ./ &&  cp -r vendor/ramsterhad/ddta/tmp ./ && cp -r vendor/ramsterhad/ddta/cache ./ && cp  vendor/ramsterhad/ddta/.env ./ && chmod -R 777 cache tmp"
   }
 }
