@@ -1,0 +1,14 @@
+{
+  "name": "ramsterhad/ddta-project",
+  "description": "Deep Danbooru Tag Assist. Project.",
+  "type": "project",
+  "license": "GPL-3.0-only",
+  "autoload": {
+    "psr-4": {
+      "Ramsterhad\\DeepDanbooruTagAssist\\": ""
+    }
+  },
+  "require": {
+    "ramsterhad/ddta": "*"
+  }
+}
